@@ -1,0 +1,11 @@
+package selfProgramming;
+
+public class Exercise6 {
+
+	public static void main(String[] args) {
+		int i=3;
+		int[] num = {1,2,3,66,7,8,9};
+		System.out.println(num[i]);
+	}
+
+}
