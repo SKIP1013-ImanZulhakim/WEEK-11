@@ -1,0 +1,15 @@
+These are elements of one Dimensional array.
+str[0]:one
+str[1]:two
+str[2]:three
+str[3]:four
+
+Enter five elements:
+satu
+dua
+tiga
+empat
+a[0]:satu
+a[1]:dua
+a[2]:tiga
+a[3]:empat
