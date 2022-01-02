@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.*;
+public class OneDimensionalArray {
+
+	public static void main(String[] args) {
+		int length;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Array length : ");
+		length=sc.nextInt();
+		int a[]=new int[length];//declaration    	 
+		System.out.print("Enter " + length + " Element to Store in Array :\n");
+	        for(int i=0; i<length; i++)
+	        {
+	           a[i] = sc.nextInt();
+	        }   
+	        System.out.print("Elements in Array are :\n");
+	        for(int i=0; i<length; i++)
+	        {
+	           System.out.print(a[i] + "  ");
+	        } 
+	}
+
+}
